@@ -3,14 +3,6 @@ import { Carousel } from "antd";
 import Image from "next/image";
 
 const MainCarousel = () => {
-  const contentStyle: React.CSSProperties = {
-    margin: 0,
-    height: "160px",
-    color: "#fff",
-    lineHeight: "160px",
-    textAlign: "center",
-    background: "#364d79",
-  };
   return (
     <Carousel autoplay fade dots={false}>
       {Array(15)
