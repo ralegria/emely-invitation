@@ -1,0 +1,11 @@
+.main-navbar {
+  .main-menu {
+    .ant-menu-item {
+      color: #508b58;
+
+      &.ant-menu-item-selected {
+        background-color: #e0fae4;
+      }
+    }
+  }
+}
