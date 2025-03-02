@@ -1,8 +1,4 @@
 import Image from "next/image";
-import { Button, Drawer } from "antd";
-import { RightOutlined } from "@ant-design/icons";
-
-import Link from "next/link";
 import MainCarousel from "./components/Carousel";
 import MapsDrawer from "./components/MapsDrawer";
 
