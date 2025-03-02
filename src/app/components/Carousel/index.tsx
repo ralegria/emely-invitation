@@ -8,12 +8,14 @@ const MainCarousel = () => {
       {Array(15)
         .fill(null)
         .map((_, index) => (
-          <div key={index}>
+          <div key={index} className="h-[300px] rounded-[6.98px]">
             <Image
+              className="rounded-[6.98px]"
               src={`/photos/pic${index + 1}.png`}
               alt={`Photo ${index + 1}`}
               width={1200}
-              height={599}
+              height={100}
+              style={{ height: "100%", objectFit: "cover" }}
             />
           </div>
         ))}

@@ -1,6 +1,10 @@
 import Image from "next/image";
+import { Button, Drawer } from "antd";
+import { RightOutlined } from "@ant-design/icons";
+
+import Link from "next/link";
 import MainCarousel from "./components/Carousel";
-import { Button } from "antd";
+import MapsDrawer from "./components/MapsDrawer";
 
 const Home: React.FC = () => {
   return (
@@ -67,33 +71,32 @@ const Home: React.FC = () => {
         <div className="bg-[url(/bgs/info-bg.png)] bg-no-repeat bg-cover w-full h-[593px] rounded-[20px] flex flex-col gap-[24px] justify-end p-[24px]">
           <div className="flex flex-col">
             <h3 className="text-[28px] font-medium">Sábado 22 de Marzo</h3>
-            <h4 className="text-[20px] font-light">
-              7:00 PM, en Alegr&iacute;a Eventos
-            </h4>
-
-            <p className="font-light text-[16px]">
-              Por favor confirma tu asistencia a la brevedad. ¡Espero verte
-              all&iacute;!
-            </p>
+            <h4 className="text-[20px] font-light">Hora: 7:00 PM</h4>
+            <p className="font-light text-[16px]">En Alegr&iacute;a Eventos</p>
           </div>
-          <Button className="w-fit h-fit p-[12px_24px_16px] rounded-[50px] font-[family-name:var(--font-hahmlet)] text-[#2D4530] text-[18px]">
+          {/* <Button className="w-fit h-fit p-[12px_24px_16px] rounded-[50px] font-[family-name:var(--font-hahmlet)] text-[#2D4530] text-[18px]">
             Confirmar
-          </Button>
+          </Button> */}
         </div>
         <div className="w-full p-[24px] rounded-[20px] bg-[#FFF]/10">
           <h2 className="mb-[24px]">Sobre el lugar</h2>
           <div className="flex flex-col gap-[32px]">
             <div className="flex flex-col gap-[8px]">
               <label className="text-[#FFF]/50">Direcci&oacute;n:</label>
-              <p>
-                Salón de Eventos Luna, Calle Los Pinos #123, Colonia Escalón,
-                San Salvador, El Salvador.
-              </p>
+              <p>C. Las Palmas #229, San Salvador</p>
             </div>
-            <p className="text-[#FFF]/80 italic font-thin">
+            <Image
+              src={"/location_image_mobile.png"}
+              alt="Location Image"
+              width={1017}
+              height={624}
+              className="rounded-[16px]"
+            />
+            <MapsDrawer />
+            {/* <p className="text-[#FFF]/80 italic font-thin">
               Hay parqueo disponible para todos los invitados. Si necesitas
               ayuda para llegar, podemos coordinar transporte.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

@@ -33,3 +33,9 @@ h2 {
 b {
   font-weight: 700;
 }
+
+.maps-drawer {
+  .ant-drawer-body {
+    padding: 0;
+  }
+}
