@@ -13,10 +13,14 @@ export const metadata: Metadata = {
   title: "Emely's 15 años",
   description: "¿Listo para celebrar conmigo?",
   openGraph: {
-    images: ["/web_thumbnail.jpg/"],
+    images: [
+      "https://res.cloudinary.com/baygram/image/upload/v1741026180/web_thumbnail_che9os.jpg",
+    ],
   },
   twitter: {
-    images: ["/web_thumbnail.jpg/"],
+    images: [
+      "https://res.cloudinary.com/baygram/image/upload/v1741026180/web_thumbnail_che9os.jpg",
+    ],
     card: "summary_large_image",
   },
 };
