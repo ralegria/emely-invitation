@@ -13,10 +13,10 @@ export const metadata: Metadata = {
   title: "Emely's 15 años",
   description: "¿Listo para celebrar conmigo? ¡Confirma tu asistencia aquí!",
   openGraph: {
-    images: ["/web_thumbnail.png/"],
+    images: ["/web_thumbnail.jpg/"],
   },
   twitter: {
-    images: ["/web_thumbnail.png/"],
+    images: ["/web_thumbnail.jpg/"],
     card: "summary_large_image",
   },
 };
