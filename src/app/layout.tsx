@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Hahmlet } from "next/font/google";
-import MainNavbar from "./components/Navbar";
+import MainNavbar from "../components/Navbar";
 
 import "./globals.scss";
 

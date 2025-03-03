@@ -35,6 +35,7 @@ const MapsDrawer = () => {
           <li>
             <Button type="text" className="h-fit w-full block">
               <Link
+                target="_blank"
                 className="flex flex-row justify-between gap-5 font-semibold p-[16px_24px]"
                 href={
                   "https://ul.waze.com/ul?place=ChIJxSTCsicxY48Ryo2tqwDT8nQ&ll=13.68935910%2C-89.23763910&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
@@ -56,6 +57,7 @@ const MapsDrawer = () => {
           <li>
             <Button type="text" className="h-fit w-full block">
               <Link
+                target="_blank"
                 className="flex flex-row justify-between gap-5 font-semibold p-[16px_24px]"
                 href={"https://maps.app.goo.gl/cgb11uEMuEum7PX26"}
               >
