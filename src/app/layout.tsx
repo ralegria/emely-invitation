@@ -12,6 +12,13 @@ const hahmlet = Hahmlet({
 export const metadata: Metadata = {
   title: "Emely's 15 años",
   description: "¿Listo para celebrar conmigo? ¡Confirma tu asistencia aquí!",
+  openGraph: {
+    images: ["/web_thumbnail.png/"],
+  },
+  twitter: {
+    images: ["/web_thumbnail.png/"],
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({
