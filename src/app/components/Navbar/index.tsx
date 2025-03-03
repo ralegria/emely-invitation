@@ -22,7 +22,7 @@ const MainNavbar = () => {
   );
   return (
     <div className="main-navbar">
-      <Sider
+      {/* <Sider
         breakpoint="lg"
         collapsedWidth="0"
         trigger={null}
@@ -42,15 +42,15 @@ const MainNavbar = () => {
             className="main-menu"
           />
         </div>
-      </Sider>
-      <div className="flex flex-row justify-between border-b border-[#FFF]/25 py-[18px] px-[24px]">
+      </Sider> */}
+      <div className="flex flex-row justify-center border-b border-[#FFF]/25 py-[18px] px-[24px]">
         <Logo />
-        <Button
+        {/* <Button
           onClick={() => setCollapsed(!collapsed)}
           className="bg-transparent border-none text-white hover:bg-transparent hover:border-none"
         >
           <MenuOutlined />
-        </Button>
+        </Button> */}
       </div>
     </div>
   );

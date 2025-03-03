@@ -39,3 +39,45 @@ b {
     padding: 0;
   }
 }
+
+.leaf-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  place-content: center;
+  gap: 12px;
+
+  width: 100%;
+
+  &::before,
+  &::after {
+    content: "";
+    display: none;
+    width: 30%;
+    height: 20px;
+  }
+
+  &::before {
+    background: url(/icons/leaf-left.svg) no-repeat center center / contain;
+  }
+
+  &::after {
+    background: url(/icons/leaf-right.svg) no-repeat center center / contain;
+  }
+}
+
+.faq-collapse {
+  border: none !important;
+  background: #ffffff1a;
+  .ant-collapse-header {
+    .ant-collapse-expand-icon,
+    .ant-collapse-header-text {
+      color: white;
+    }
+  }
+
+  .ant-collapse-content {
+    background: #ffffff1a;
+    color: white;
+  }
+}

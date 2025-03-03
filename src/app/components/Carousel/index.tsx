@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const MainCarousel = () => {
   return (
-    <Carousel autoplay fade dots={false}>
+    <Carousel autoplay fade arrows dots={false}>
       {Array(15)
         .fill(null)
         .map((_, index) => (
