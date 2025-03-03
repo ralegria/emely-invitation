@@ -1,22 +1,22 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
-import { Button, Layout, Menu } from "antd";
-import { MenuOutlined } from "@ant-design/icons";
+//import { Button, Layout, Menu } from "antd";
+//import { MenuOutlined } from "@ant-design/icons";
 
-const { Sider } = Layout;
+//const { Sider } = Layout;
 
 import "./Navbar.scss";
 
 const MainNavbar = () => {
-  const [collapsed, setCollapsed] = useState(true);
+  /* const [collapsed, setCollapsed] = useState(true);
   const menuOptions = [
     { label: "Historia", key: "history" },
     { label: "Información", key: "information" },
     { label: "Dress code", key: "dresscode" },
     { label: "FAQs", key: "faqs" },
     { label: "RSVP", key: "rsvp" },
-  ];
+  ]; */
   const Logo = () => (
     <Image src={"/emelys-logo.svg"} width={100} height={100} alt="Logo" />
   );
