@@ -11,7 +11,7 @@ const hahmlet = Hahmlet({
 
 export const metadata: Metadata = {
   title: "Emely's 15 años",
-  description: "¿Listo para celebrar conmigo? ¡Confirma tu asistencia aquí!",
+  description: "¿Listo para celebrar conmigo?",
   openGraph: {
     images: ["/web_thumbnail.jpg/"],
   },
