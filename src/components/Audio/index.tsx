@@ -12,6 +12,7 @@ const BackgroundAudio = ({ children }: AudioProps) => {
 
   const play = () => {
     if (audioRef.current) {
+      audioRef.current.currentTime = 28;
       audioRef.current.play();
       setPlayClicked(true);
     }
