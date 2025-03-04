@@ -11,8 +11,8 @@ const GuestQty = ({
         <>
           {full && (
             <div className="underline">
-              Puedes traer a {qty}{" "}
-              {Number(qty) > 1 ? "acompañantes" : "acompañante"}.
+              Hemos reservado {qty} {Number(qty) > 1 ? "espacios" : "espacio"}{" "}
+              para ti.
             </div>
           )}
           {!full && <>{qty}</>}
