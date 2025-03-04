@@ -2,7 +2,7 @@ import Image from "next/image";
 import MainCarousel from "../components/Carousel";
 import MapsDrawer from "../components/MapsDrawer";
 import DressCodeGrid from "../components/DressCodeGrid";
-import { Collapse } from "antd";
+/* import { Collapse } from "antd"; */
 import GuestQty from "../components/GuestQty";
 
 interface ViewProps {
@@ -10,7 +10,7 @@ interface ViewProps {
 }
 
 const MainView = ({ guests }: ViewProps) => {
-  const FAQs = [
+  /* const FAQs = [
     {
       key: "1",
       label: "¿Puedo llevar a una persona extra?",
@@ -41,7 +41,7 @@ const MainView = ({ guests }: ViewProps) => {
       label: "¿Es fiesta apta para niños?",
       children: "Si, es una fiesta de ambiente familiar",
     },
-  ];
+  ]; */
 
   return (
     <div className="flex flex-col items-center">
@@ -163,14 +163,14 @@ const MainView = ({ guests }: ViewProps) => {
             <DressCodeGrid />
           </div>
 
-          <div className="flex flex-col gap-[24px] items-center w-full">
+          {/* <div className="flex flex-col gap-[24px] items-center w-full">
             <h2 className="leaf-title">Preguntas Frecuentes</h2>
             <Collapse
               size="large"
               className="w-full faq-collapse"
               items={FAQs}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
